@@ -1,0 +1,40 @@
+{
+  "name": "hash-code",
+  "version": "1.0.0",
+  "description": "java like string  hashCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/_mocha -R spec -t 20 test.js",
+    "test-cov": "node node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -R dot -t 20 test.js",
+    "test-travis": "node node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- -R dot -t 20 test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderhaoxin/hash-code.git"
+  },
+  "keywords": [
+    "hashCode",
+    "string",
+    "java",
+    "hash",
+    "code",
+    "bkdr"
+  ],
+  "files": [
+    "index.js",
+    "Readme.md"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderhaoxin/hash-code/issues"
+  },
+  "homepage": "https://github.com/coderhaoxin/hash-code",
+  "devDependencies": {
+    "istanbul": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "istanbul": "^0.3.2"
+  }
+}
