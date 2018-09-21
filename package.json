@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "java like string  hashCode",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "mocha -R spec -t 20 test.js",
     "test-cov": "istanbul cover node_modules/.bin/_mocha -- -R dot -t 20 test.js",
